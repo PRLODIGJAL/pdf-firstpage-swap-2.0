@@ -1,0 +1,29 @@
+# 虚拟环境：随包交付无意义（记着创建机的 Python 绝对路径，不能跨机复制）
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+$py.class
+.pytest_cache/
+
+# 工具运行时产生的记忆文件（保存在用户主目录，但以防万一）
+.pdf_batch_cover_swap.json
+.pdf_batch_cover_swap.json.tmp
+.pdf_firstpage_swap.json
+.pdf_firstpage_swap.json.tmp
+
+# 同步前的旧版备份
+_regress/_win_prev/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
